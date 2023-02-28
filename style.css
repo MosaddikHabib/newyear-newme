@@ -29,11 +29,12 @@
 .banner-title p {
     font-weight: 400;
     font-size: 16px;
+    text-align: end;
 }
 
 .banner-title h2,
-p {
-    text-align: right;
+.banner-desicription {
+    text-align: end;
 }
 
 .banner-title .btn-primary {
@@ -46,4 +47,33 @@ p {
     padding: 15px;
 
     margin-left: 410px;
+}
+
+/* failures part design  */
+
+.failures-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 200px;
+}
+
+.failure-description {
+    width: 416px;
+    height: 400px;
+}
+
+.failure-title {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.failure-description p {
+    text-align: left;
+}
+
+.icon-color {
+    color: #16D887;
 }
